@@ -1474,8 +1474,13 @@ p,li{
     font-size: 25px;
 }
 .jquery_icon,.mongo_icon{
-    height:50px!important;
-    width: 50px!important;
+    height:48px!important;
+    width: 48px!important;
+}
+.redux_icon{
+    height:42px!important;
+    width: 42px!important;
+    margin: 0 10px;
 }
 
 .projects_container {
@@ -1546,8 +1551,8 @@ p,li{
 	color: #68A063;
 }
 .icon_container .mongo_icon{
-	height: 36px;
-	width: 36px;
+	height: 45px;
+	width: 45px;
 	margin: 0 7.5px;
 	margin-top: 2px;
 }
