@@ -157,6 +157,37 @@ const getType = (type)=>{
                 <img class="d-block w-100" src="./html/images/prettyPhotoImages/pedometer/14.png" alt="n slide">
             </div>
             `
+    }else if(type==="news"){
+        modalDialog.classList.remove("modal-update")
+        carousel.innerHTML = `<div class="carousel-item active">
+            <img class="d-block w-100" src="./html/images/prettyPhotoImages/news/1.png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./html/images/prettyPhotoImages/news/2.png" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./html/images/prettyPhotoImages/news/3.png" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./html/images/prettyPhotoImages/news/4.png" alt="Fourth slide">
+            </div>
+            `
+    }else if(type==="gossip"){
+        modalDialog.classList.add("modal-update")
+        carousel.innerHTML = `
+        <div class="carousel-item active">
+        <img   class="d-block w-100" src="./html/images/prettyPhotoImages/gossip/gossip1.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="./html/images/prettyPhotoImages/gossip/gossip2.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="./html/images/prettyPhotoImages/gossip/gossip3.jpg" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="./html/images/prettyPhotoImages/gossip/gossip4.jpg" alt="Fourth slide">
+        </div>
+        `
     }
 }
 
